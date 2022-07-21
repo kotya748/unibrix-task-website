@@ -4,10 +4,8 @@ body {
     background-color: aqua;
     margin: 0%;
 
-
-    background: url("Media\main bg.png") no-repeat center fixed; 
+    background: url("Media\main bg.png") ; 
     background-size: cover;
-    /* overflow-x: hidden; */
     overflow: hidden;
 
     display: flex;
@@ -25,15 +23,6 @@ body {
     background-repeat: no-repeat;
     
 }
-/* 
-.header {
-    width: 100%;
-    height: 900px;
-    background-color: black;
-    background: url("Media\main bg.png");
-    background-size: 1600px 950px;
-    background-repeat: no-repeat;
-} */
 
 .header-top {
     width: 100%;
@@ -116,19 +105,16 @@ body {
 
 .nav-header-top-ul-right :first-child {
     margin-left: 0;
-    /* margin-top: 5px; */
 }
 
 .nav-header-top-ul-right :last-child {
     margin-right: 0%;
-    /* padding: 0% 10px; */
 }
 
 .header-top-btn {
     border: none;
     margin: 0%;
     margin-top: -1px;
-    /* padding: 0%; */
     background-color: #1f87e4;
 
     width: 204px;
@@ -167,23 +153,24 @@ body {
 }
 
 #header-bottom {
+    margin: 11% 0;
+
     display: flex;
     flex-direction: row; 
     
 }
 
 .header-aside {
-    margin-top: 19.5%;
+    margin-top: 8%;
+
+    position: relative;
+    top: -1.8rem;
 
     box-sizing: border-box;
     display:grid;
     grid-template-columns: auto;
     grid-template-rows: 1;
     justify-content: space-around;
-    
-
-
-    /* justify-content:baseline; */
 }
 
 .header-bottom > aside {
@@ -193,10 +180,6 @@ body {
     justify-content: center;
 
     background-image: url(bg.png);
-    /* box-sizing: border-box; */
-
-    /* background-color: black; */
-    /* vertical-align:middle; */
 }
 
 #header-title {
@@ -206,20 +189,18 @@ body {
     flex-grow: 4;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
-    /* text-justify:auto; */
 }
 
 #title-1 {
-    margin-top: 299px;
-    margin-bottom: 4px;
+    margin-top: 4%;
+    margin-bottom: 2%;
 
     text-transform: uppercase;
-    /* text-justify: inter-cluster; */
     font-family: "Open Sans", sans-serif;
     font-weight:900;
     font-weight:bolder;
     font-size: 50px;
+    text-align: center;
     color: #4a657d;
 }
 
@@ -231,8 +212,6 @@ body {
 
     display:flex;
     justify-content: center;
-    /* flex-direction: row; */
-    /* justify-content: space-between; */
 
     text-align: center;
     text-transform:uppercase;
@@ -241,13 +220,6 @@ body {
     font-size: 12px;
     color: #4a657d;
 }
-
-/* #title-2 :nth-child(2) {
-    margin-top: 14px;
-    margin-left: 50px !important;
-    justify-self: center !important;
-    background-color: #1d1d1d !important;
-} */
 
 #arrow-left {
     width: 69px;
@@ -278,8 +250,6 @@ body {
     height: 61px;
 
     display: flex;
-    /* align-items: stretch; */
-    /* justify-content: space-around; */
 
     background-image: url("Media/bg-slider.png");
     background-position: center;
